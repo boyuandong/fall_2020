@@ -1,0 +1,173 @@
+body{
+  font-size: 1.2rem;
+}
+
+h2{
+  font-size:24;
+}
+
+.noscroll{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.font_web{
+  font-family: 'Comfortaa', cursive;
+  font-size:14;
+}
+
+.splash_words{
+  font-family: 'Comfortaa', cursive;
+  font-size:14px;
+  text-align: center;
+}
+
+.activity_info{
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size:14px;
+}
+
+.top_bar{
+  font-family: 'Comfortaa', cursive;
+  font-size:14px;
+}
+
+.splash_activity{
+  font-family: 'Comfortaa', cursive;
+  font-size:20px;
+  color:white;
+  text-align: center;
+}
+
+.apps_row{
+  padding-bottom:10;
+}
+
+.apps_list{
+  padding-bottom:10;
+}
+
+.table_sessions{
+    font-size:14px !important;
+}
+
+.ellipsis{
+  text-overflow: ellipsis;
+}
+
+.userinfo{
+  background-color: rgba(199, 42, 42, 0.03);
+}
+.mini-submenu{
+  display:none;  
+  background-color: rgba(0, 0, 0, 0);  
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 9px;  
+  width: 42px;
+}
+  
+.mini-submenu:hover{
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav>li>a:hover {
+  background-color: transparent;
+  transform: scale(1.1);
+}
+  
+.nav-pills .nav-item .nav-link.active {
+  background-color: transparent;
+  transform: scale(1.3);
+}
+
+.inline {
+  display: inline;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: serif;
+}
+.link-button:focus {
+  outline: none;
+}
+.link-button:active {
+  color:red;
+}
+
+.well{
+  padding: 10px !important;
+  padding-bottom:14px !important;
+  box-shadow: inset 0 0px 0px rgba(0,0,0,0) !important;
+}
+
+.small_table{
+  font-size:14px;
+}
+
+.left_col {
+  background-color: aliceblue;
+}
+
+.small_table td{
+  padding: .2rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.categories-wrapper {
+  position: relative;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.category-input {
+  position: absolute;
+  top: 4;
+  left: 10;
+  opacity: 0.6;
+  width: 50;
+  height: 50;
+}
+
+.each-activity-edit{
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom:10px;
+  border-color:gray;
+}
+
+.activity_list{
+  margin-left:50px;
+}

@@ -1,0 +1,32 @@
+Script started on Sat 26 Jan 2019 08:37:28 PM MST
+yziyi@ue18:~/Downloads>cd [K[K[Kcp assignment1.tgz /cshome/yziyi/Desktop/
+yziyi@ue18:~/Downloads>cd [K
+yziyi@ue18:~>cd Desktop
+yziyi@ue18:~/Desktop>tar xvzf s[Kassignment1.tgz
+assignment1/
+assignment1/Go0.py
+assignment1/gtp_connection.py
+assignment1/board_util.py
+assignment1/readme.txt
+assignment1/assignment1-public-tests.gtp
+assignment1/test_simple_board.py
+assignment1/simple_board.py
+assignment1/test_board_util.py
+yziyi@ue18:~/Desktop>which gogui=regreas[K[K[K[K[K[K[K[K-regress
+/cshome/yziyi/gogui/bin/gogui-regress
+yziyi@ue18:~/Desktop>cd assignment1
+yziyi@ue18:~/Desktop/assignment1>/cshome/yziyi/gogui/bin/gogui-regress
+Usage: gogui-regress [options] program test.tst [...]
+
+-config       Config file
+-gtpfile      GTP file to execute before each test
+-help         Display this help and exit
+-long         Longer output to standard out
+-output       Output directory
+-verbose      Log GTP stream to stderr
+-version      Display this help and exit
+yziyi@ue18:~/Desktop/assignment1>/cshome/yziyi/gogui/bin/gogui-regress Go0.py as signemn[K[K[Kment1.[K-public-tests.gtp
+yziyi@ue18:~/Desktop/assignment1>exit
+exit
+
+Script done on Sat 26 Jan 2019 08:39:34 PM MST

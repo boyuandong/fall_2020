@@ -1,0 +1,60 @@
+         6907931 function calls in 6.688 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    11227    0.009    0.000    0.050    0.000 <__array_function__ internals>:2(copy)
+    55727    0.044    0.000    0.161    0.000 <__array_function__ internals>:2(copyto)
+    54509    0.039    0.000    0.108    0.000 <__array_function__ internals>:2(where)
+        1    0.000    0.000    6.687    6.687 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 Go1.py:11(__init__)
+     7418    0.005    0.000    5.320    0.001 Go1.py:27(get_move)
+    14836    0.043    0.000    0.043    0.000 __init__.py:484(cast)
+    14836    0.007    0.000    0.171    0.000 _asarray.py:16(asarray)
+    14836    0.004    0.000    0.004    0.000 _internal.py:259(__init__)
+    14836    0.074    0.000    0.074    0.000 _internal.py:262(__array_interface__)
+    14836    0.053    0.000    0.329    0.000 _internal.py:274(_get_void_ptr)
+    14836    0.026    0.000    0.355    0.000 _internal.py:291(__init__)
+    14836    0.004    0.000    0.004    0.000 _internal.py:340(data)
+    11328    0.109    0.000    0.135    0.000 board.py:100(_initialize_empty_points)
+    14127    0.059    0.000    0.232    0.000 board.py:111(is_eye)
+    32369    0.302    0.000    0.350    0.000 board.py:128(_is_surrounded)
+    44399    0.095    0.000    1.135    0.000 board.py:139(_has_liberty)
+    44399    0.070    0.000    3.770    0.000 board.py:150(_block_of)
+    44399    0.717    0.000    3.558    0.000 board.py:160(connected_component)
+    26157    0.050    0.000    3.692    0.000 board.py:178(_detect_and_process_capture)
+    18645    0.340    0.000    5.527    0.000 board.py:195(play_move)
+   569373    1.904    0.000    3.216    0.000 board.py:236(neighbors_of_color)
+   619984    0.764    0.000    0.764    0.000 board.py:244(_neighbors)
+     3148    0.009    0.000    0.009    0.000 board.py:248(_diag_neighbors)
+    11228    0.009    0.000    0.253    0.000 board.py:38(__init__)
+    11328    0.032    0.000    0.245    0.000 board.py:45(reset)
+    11227    0.035    0.000    0.337    0.000 board.py:60(copy)
+  2366290    0.544    0.000    0.544    0.000 board.py:72(get_color)
+    11227    0.019    0.000    4.536    0.000 board.py:78(is_legal)
+     7418    0.021    0.000    0.040    0.000 board.py:88(get_empty_points)
+    79296    0.026    0.000    0.026    0.000 board.py:95(row_start)
+     7418    0.039    0.000    5.316    0.001 board_util.py:130(generate_random_move)
+    35844    0.011    0.000    0.011    0.000 board_util.py:169(opponent)
+    63044    0.135    0.000    0.135    0.000 board_util.py:19(is_black_white)
+    44399    0.154    0.000    0.154    0.000 board_util.py:23(is_black_white_empty)
+    54509    0.043    0.000    0.151    0.000 board_util.py:57(where1d)
+    11227    0.002    0.000    0.002    0.000 function_base.py:741(_copy_dispatcher)
+    11227    0.004    0.000    0.033    0.000 function_base.py:745(copy)
+    55727    0.008    0.000    0.008    0.000 multiarray.py:1043(copyto)
+    54509    0.008    0.000    0.008    0.000 multiarray.py:312(where)
+    55727    0.066    0.000    0.324    0.000 numeric.py:290(full)
+        1    0.017    0.017    6.687    6.687 profile_Go1.py:13(play_moves)
+    14836    0.018    0.000    0.018    0.000 {built-in method _ctypes.pointer}
+        1    0.000    0.000    6.688    6.688 {built-in method builtins.exec}
+     3102    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+    26063    0.118    0.000    0.192    0.000 {built-in method numpy.array}
+   121463    0.176    0.000    0.209    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+    55727    0.097    0.000    0.097    0.000 {built-in method numpy.empty}
+  1616388    0.149    0.000    0.149    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    14836    0.041    0.000    0.041    0.000 {method 'from_buffer' of '_ctypes.PyCArrayType' objects}
+   495387    0.080    0.000    0.080    0.000 {method 'pop' of 'list' objects}
+     7418    0.110    0.000    0.469    0.000 {method 'shuffle' of 'numpy.random.mtrand.RandomState' objects}
+
+

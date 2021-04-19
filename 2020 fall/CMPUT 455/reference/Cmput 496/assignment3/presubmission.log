@@ -1,0 +1,44 @@
+Script started on Wed 20 Mar 2019 02:58:21 PM MDT
+yziyi@ue02:~/Downloads/496>cp assignment3.tgz /cshome/yziyi/Desktop/
+yziyi@ue02:~/Downloads/496>cd ..
+yziyi@ue02:~/Downloads>cd ..
+yziyi@ue02:~>cd Desktop
+yziyi@ue02:~/Desktop>tar xvzf assignment3.tgz
+assignment3/
+assignment3/readme.txt
+assignment3/board_util.py
+assignment3/Gomoku3.py
+assignment3/presubmission.log
+assignment3/summary.dat
+assignment3/__pycache__/
+assignment3/__pycache__/gtp_connection.cpython-35.pyc
+assignment3/__pycache__/Gomoku3.cpython-35.pyc
+assignment3/__pycache__/simple_board.cpython-35.pyc
+assignment3/__pycache__/board_util.cpython-35.pyc
+assignment3/assignment3-public-tests.gtp.out.html
+assignment3/index.html
+assignment3/simple_board.py
+assignment3/assignment3-public-tests.gtp.html
+assignment3/assignment3-public-tests.gtp
+assignment3/gtp_connection.py
+yziyi@ue02:~/Desktop>cd assignment3
+yziyi@ue02:~/Desktop/assignment3>/cshome/yziyi/gogui/bin/gogui-regress Gomoku.py  
+Usage: gogui-regress [options] program test.tst [...]
+
+-config       Config file
+-gtpfile      GTP file to execute before each test
+-help         Display this help and exit
+-long         Longer output to standard out
+-output       Output directory
+-verbose      Log GTP stream to stderr
+-version      Display this help and exit
+yziyi@ue02:~/Desktop/assignment3>
+yziyi@ue02:~/Desktop/assignment3> assignment3-public-tests.gtp/cshome/yziyi/gogui/bin/gogui-regress Gomoku.py  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy  asssignmn[K[K[K[K[K[Kignmentn [K[K3-public-tests.gtp
+Cannot run program "Gomoku.py" (in directory "/cshome/yziyi/Desktop/assignment3"): error=2, No such file or directory
+yziyi@ue02:~/Desktop/assignment3>/cshome/yziyi/gogui/bin/gogui-regress Gomoku.py  assignment3-public-tests.gtp[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3.py assignment3-public-tests.gtp[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+yziyi@ue02:~/Desktop/assignment3>eix[K[Kxit
+exit
+
+Script done on Wed 20 Mar 2019 03:02:07 PM MDT

@@ -1,0 +1,72 @@
+h1 a{
+    color: #3291ff;
+}
+
+.table a{
+  color: #299688 !important;
+}
+
+.topbar_a a{
+  color: #299688 !important;
+}
+
+.information_card a{
+  color: #299688 !important;
+}
+
+  
+.mini-submenu:hover{
+  cursor: pointer;
+}
+  
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+  background-color: #299688 !important;
+  border-color: #299688 !important;
+}
+
+.btn-primary:hover{
+  background-color: #2d756c !important;
+  border-color: #2d756c !important;
+}
+
+.username{
+  color:#f85a56;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  background-color: #299688;
+  border-color: #299688;
+}
+
+.pagination>li>a{
+  color: #299688;
+}
+
+.viewmore{
+  color: #299688;
+}
+
+.table>tbody {
+  background-color: whitesmoke !important;
+}

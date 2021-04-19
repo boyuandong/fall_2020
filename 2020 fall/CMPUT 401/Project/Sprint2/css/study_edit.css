@@ -1,0 +1,174 @@
+h1 a{
+    color: #3291ff;
+}
+
+h2{
+  font-size:24;
+}
+
+.noscroll{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.font_web{
+  font-family: 'Comfortaa', cursive;
+}
+
+.splash_words{
+  font-family: 'Comfortaa', cursive;
+  font-size:12px;
+  text-align: center;
+}
+
+.activity_info{
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size:12px;
+}
+
+.top_bar{
+  font-family: 'Comfortaa', cursive;
+  font-size:12px;
+}
+
+.splash_activity{
+  font-family: 'Comfortaa', cursive;
+  font-size:20px;
+  color:white;
+  text-align: center;
+}
+
+.apps_row{
+  padding-bottom:10;
+}
+
+.apps_list{
+  padding-bottom:10;
+}
+
+.table_sessions{
+    font-size:12px !important;
+}
+
+.ellipsis{
+  text-overflow: ellipsis;
+}
+
+.userinfo{
+  background-color: rgba(199, 42, 42, 0.03);
+}
+.mini-submenu{
+    display:none;  
+    background-color: rgba(0, 0, 0, 0);  
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+    padding: 9px;  
+    /*position: relative;*/
+    width: 42px;
+  
+  }
+  
+  .mini-submenu:hover{
+    cursor: pointer;
+  }
+  
+  .mini-submenu .icon-bar {
+    border-radius: 1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+    margin-top: 3px;
+  }
+  
+  .mini-submenu .icon-bar {
+    background-color: #000;
+  }
+  
+  #slide-submenu{
+    background: rgba(0, 0, 0, 0.45);
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .nav>li>a:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+  }
+    
+  .nav-pills .nav-item .nav-link.active {
+    background-color: transparent;
+    transform: scale(1.3);
+  }
+
+
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  input[type="checkbox"][id^="cb"] {
+    display: none;
+  }
+  
+  label {
+    border: 1px solid #fff;
+    padding: 5px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  label::before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+  
+  label img {
+    height: 70px;
+    width: 70px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+  }
+  
+  :checked+label::before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+  }
+  
+  :checked+label img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+  }

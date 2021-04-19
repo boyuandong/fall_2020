@@ -1,0 +1,81 @@
+Script started on Wed Apr 10 22:07:58 2019
+[?1034hbash-3.2$ co[Kp assignment4.tgz test
+bash-3.2$ tar xvzf assignment4.tgz[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd test
+bash-3.2$ tar xvzf assignment4.tgz
+x ./._assignment4
+x assignment4/
+x assignment4/game_results.txt
+x assignment4/._gomoku4
+x assignment4/gomoku4/
+x assignment4/._.DS_Store
+x assignment4/.DS_Store
+x assignment4/._play.py
+x assignment4/play.py
+x assignment4/._flat_mc_player
+x assignment4/flat_mc_player/
+x assignment4/._random_player
+x assignment4/random_player/
+x assignment4/._readme.txt
+x assignment4/readme.txt
+x assignment4/random_player/._board_util.py
+x assignment4/random_player/board_util.py
+x assignment4/random_player/._Gomoku2.py
+x assignment4/random_player/Gomoku2.py
+x assignment4/random_player/._gtp_connection.py
+x assignment4/random_player/gtp_connection.py
+x assignment4/random_player/__pycache__/
+x assignment4/random_player/._simple_board.py
+x assignment4/random_player/simple_board.py
+x assignment4/random_player/__pycache__/board_util.cpython-35.pyc
+x assignment4/random_player/__pycache__/simple_board.cpython-35.pyc
+x assignment4/random_player/__pycache__/gtp_connection.cpython-35.pyc
+x assignment4/flat_mc_player/._board_util.py
+x assignment4/flat_mc_player/board_util.py
+x assignment4/flat_mc_player/._Gomoku3.py
+x assignment4/flat_mc_player/Gomoku3.py
+x assignment4/flat_mc_player/._gtp_connection.py
+x assignment4/flat_mc_player/gtp_connection.py
+x assignment4/flat_mc_player/__pycache__/
+x assignment4/flat_mc_player/._removeSpace.py
+x assignment4/flat_mc_player/removeSpace.py
+x assignment4/flat_mc_player/._alphabeta.py
+x assignment4/flat_mc_player/alphabeta.py
+x assignment4/flat_mc_player/._simple_board.py
+x assignment4/flat_mc_player/simple_board.py
+x assignment4/flat_mc_player/__pycache__/board_util.cpython-35.pyc
+x assignment4/flat_mc_player/__pycache__/simple_board.cpython-35.pyc
+x assignment4/flat_mc_player/__pycache__/gtp_connection.cpython-35.pyc
+x assignment4/flat_mc_player/__pycache__/alphabeta.cpython-35.pyc
+x assignment4/gomoku4/._board_util.py
+x assignment4/gomoku4/board_util.py
+x assignment4/gomoku4/._gtp_connection.py
+x assignment4/gomoku4/gtp_connection.py
+x assignment4/gomoku4/__pycache__/
+x assignment4/gomoku4/._removeSpace.py
+x assignment4/gomoku4/removeSpace.py
+x assignment4/gomoku4/._alphabeta.py
+x assignment4/gomoku4/alphabeta.py
+x assignment4/gomoku4/._Gomoku4.py
+x assignment4/gomoku4/Gomoku4.py
+x assignment4/gomoku4/._simple_board.py
+x assignment4/gomoku4/simple_board.py
+x assignment4/gomoku4/__pycache__/board_util.cpython-35.pyc
+x assignment4/gomoku4/__pycache__/simple_board.cpython-35.pyc
+x assignment4/gomoku4/__pycache__/gtp_connection.cpython-35.pyc
+x assignment4/gomoku4/__pycache__/alphabeta.cpython-35.pyc
+bash-3.2$ cd assignment4
+bash-3.2$ python3 play.py
+D4
+E1
+E5
+E2
+F6
+C2
+C3
+C7
+G7
+player1 win 1 player2 win 0 draw 0
+bash-3.2$ exit
+exit
+
+Script done on Wed Apr 10 22:10:24 2019
